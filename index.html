@@ -5,7 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
     <script src="./app.js" defer></script>
   </head>
-  <body></body>
+  <body>
+    <div id="container">
+      <div id="calculator">
+        <p id="display">5768</p>
+        <div id="keyboard">
+          <div class="row">
+            <button class="calculator-button yellow" id="clear">AC</button
+            ><button class="calculator-button yellow" id="backspace">
+              <ion-icon name="backspace-outline"></ion-icon></button
+            ><button class="calculator-button yellow" id="percent">%</button
+            ><button class="calculator-button yellow" id="division">/</button>
+          </div>
+          <div class="row">
+            <button class="calculator-button" id="7">7</button
+            ><button class="calculator-button" id="8">8</button
+            ><button class="calculator-button" id="9">9</button
+            ><button class="calculator-button yellow" id="multiply">X</button>
+          </div>
+          <div class="row">
+            <button class="calculator-button" id="4">4</button
+            ><button class="calculator-button" id="5">5</button
+            ><button class="calculator-button" id="6">6</button
+            ><button class="calculator-button yellow" id="subtract">-</button>
+          </div>
+          <div class="row">
+            <button class="calculator-button" id="1">1</button
+            ><button class="calculator-button" id="2">2</button
+            ><button class="calculator-button" id="3">3</button
+            ><button class="calculator-button yellow" id="add">+</button>
+          </div>
+          <div class="row last">
+            <button class="calculator-button" id="0">0</button
+            ><button class="calculator-button" id="dot">.</button
+            ><button class="calculator-button" id="equal">=</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
 </html>
