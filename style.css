@@ -24,14 +24,27 @@ body {
   box-shadow: 0px 0px 20px #b95e43;
 }
 #display {
-  color: #fefeff;
-  font-size: 64px;
   width: 100%;
   margin: 0;
   flex: 1 0 0;
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: end;
+  word-wrap: break-word;
+  word-break: break-all;
+  text-align: end;
+}
+#previous-value {
+  color: #fefeff88;
+  font-size: 20px;
+}
+#current-value {
+  color: #fefeff;
+  font-size: 64px;
+  word-wrap: break-word;
+  word-break: break-all;
+  text-align: end;
 }
 #keyboard {
   display: flex;
